@@ -1,5 +1,6 @@
 # Dockerized WordPress and MySQL project:
 This project demonstrates a Docker-based deployment of WordPress (blogging platform) with MySQL database, using persistent storage for data preservation.
+![Image](https://github.com/user-attachments/assets/d43ad96e-9666-4e23-8650-fca51a4fcecf)
 
 ## Features
 - WordPress container with external volume for content persistence
@@ -112,7 +113,7 @@ ________________________________________________________________________________
 - Successfully installed WordPress
 - Login with WordPress
 ___________________________________________________________________________________________________________________________________________________________________________________________________________
-### Creating Blogs on WordPress 
+### 7. Creating Blogs on WordPress 
 
 - WordPress Dashboard
   ![Image](https://github.com/user-attachments/assets/2c6886b6-c945-45bf-8153-4641baa175f3)
@@ -123,7 +124,7 @@ ________________________________________________________________________________
 - Blog published
 ![Image](https://github.com/user-attachments/assets/3d628861-236c-45f3-a7f3-1fa0c79f3c97)
 ___________________________________________________________________________________________________________________________________________________________________________________________________________
-### Stopping and Restoring Containers
+### 8. Test Data Persistence
 - MySql data stored persistantly in external storage.
 - Stopping & Removing mysql container.
   ```bash
